@@ -25,15 +25,15 @@
     }
 
     .header_link:hover {
-        color: var(--teal-color);
+        color: var(--red-color);
     }
 
     .header_link.active {
-        color: var(--teal-color);
+        color: var(--red-color);
     }
 
     .header_link::after {
-        background-color: var(--teal-color);
+        background-color: var(--red-color);
     }
 
     .humburger {
@@ -149,8 +149,8 @@
 
     .header_logoLnk,
     .footer_icon {
-        height: 84px;
-        width: 84px;
+        height: 54px;
+        width: 120px;
     }
 
     .categories_wrapper {
@@ -266,11 +266,6 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
-
-    .hotelSlct_sec {
-        height: 280px;
-    }
-
     .why_imgWrap {
         max-width: 70px;
         height: 70px;
@@ -313,9 +308,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .categories_sec {
-        height: 300px;
-    }
+   
 
     .why_wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -373,8 +366,8 @@
 
     .header_logoLnk,
     .footer_icon {
-        height: 80px;
-        width: 80px;
+        height: 45px;
+        width: 100px;
     }
 
     .overview {
@@ -399,7 +392,7 @@
     }
 
     .banner_desc {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .why_title {
@@ -486,5 +479,8 @@
     .signup {
         height: 330px;
         margin-bottom: 20px;
+    }
+    .banner_desc {
+        font-size: 14px;
     }
 }
